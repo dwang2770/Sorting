@@ -8,10 +8,25 @@ public class Runner {
 		int [] somenums = {2,3,5,6,88,10};
 		String [] xd= {"c","g","d","a","b","f","h","j"};
 		BubbleSort.bubbleSort(xd);
+		SelectionSort.selectionSort(somenumsbutwithadot);
+		//prints out sorted string array
 		for (String x : xd)
 		{
-			System.out.print(x);
+			System.out.print(x + " ");
 		}
+		System.out.println();
+		//prints out sorted double array
+		for (double y : somenumsbutwithadot)
+		{
+			System.out.print(y + " ");
+		}
+		System.out.println();
+		//prints out sorted int array
+		for (int z : somenums)
+		{
+			System.out.print(z + " ");
+		}
+		System.out.println();
 	}
 
 }

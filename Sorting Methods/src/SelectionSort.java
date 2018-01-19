@@ -3,17 +3,22 @@ public class SelectionSort
 {
 	public static void selectionSort(double [] list1)
 	{
-		int i =0;
-		double holder = list1[i];
+		int n = list1.length;
 		
-		for (double x : list1)//need position not value of x :/
+		
+		for (int i = 0; i< n-1; i++)
 		{
-			if(x < holder)
+			int min = i;
+			
+			for (int j = i+1; j < n;j++)
 			{
-				DoubleSwap.doubleSwap(list1, i, );
+				if (list1[j] < list1[min])
+				{
+						min = j;
+				}
 			}
+			
 		}
-		
 		
 	
 	}
