@@ -1,4 +1,5 @@
-
+//Dave Wang 2/1/18
+//Lab 3.1 Sorting
 public class BubbleSort 
 {
 	public static void bubbleSort( String [] list1)
